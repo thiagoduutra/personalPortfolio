@@ -1,6 +1,30 @@
 @import "../../styles/utils/variables.scss";
 @import "../../styles/mixin/mixin.scss";
 
+.animeLeft {
+  @include animeLeft;
+}
+
 .container {
   @include container;
+
+  .container-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+    width: 50%;
+    height: 100%;
+
+    .title-home {
+      color: $color-green-1;
+      letter-spacing: 1.5px;
+      font-weight: 500;
+    }
+
+    .btn {
+      @include btn;
+    }
+  }
 }

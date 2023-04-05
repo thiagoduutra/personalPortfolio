@@ -6,15 +6,15 @@ import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <div className="container-footer">
+    <footer className="container-footer animeLeft">
       <span className="footer-name">Thiago Dutra</span>
       <nav className="container-navFooter">
         <ul className="container-ulFooter">
           <li className="footer-links">
-            <NavLink className="link-svg" to="/home">
+            <NavLink className="link-svg" to="/">
               <FaHome className="svg-img" />
             </NavLink>
-            <NavLink className="link" to="/home">
+            <NavLink className="link" to="/">
               Home
             </NavLink>
           </li>
@@ -53,7 +53,7 @@ const Footer = () => {
           </li>
         </ul>
       </nav>
-    </div>
+    </footer>
   );
 };
 
