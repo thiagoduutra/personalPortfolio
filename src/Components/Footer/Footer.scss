@@ -1,0 +1,79 @@
+@import "../../styles/utils/variables.scss";
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+
+  @media (max-width: $l-device) {
+    font-size: 18px;
+    padding: 0 50px;
+  }
+
+  @media (max-width: $m-device) {
+    display: block;
+    padding: 0 20px;
+  }
+
+  .footer-name {
+    border-left: 4px solid $color-blue-2;
+    height: 30px;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+
+    @media (max-width: $l-device) {
+      font-size: 20px;
+    }
+
+    @media (max-width: $m-device) {
+      display: none;
+    }
+  }
+
+  .container-navFooter {
+    .container-ulFooter {
+      display: flex;
+      justify-content: space-between;
+
+      .footer-links {
+        padding: 10px;
+
+        @media (max-width: $s-device) {
+          padding: 0;
+        }
+        .link-svg {
+          .svg-img {
+            display: none;
+            @media (max-width: $s-device) {
+              display: block;
+              margin: 0 auto;
+              width: 18px;
+              height: 18px;
+            }
+          }
+        }
+
+        .link {
+          color: $color-green-1;
+          letter-spacing: 2px;
+          font-size: 18px;
+
+          @media (max-width: $l-device) {
+            letter-spacing: 0;
+          }
+
+          @media (max-width: $m-device) {
+            font-size: 20px;
+          }
+
+          @media (max-width: $s-device) {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}
