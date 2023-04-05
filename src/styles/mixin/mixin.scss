@@ -1,0 +1,13 @@
+@import "../utils/variables.scss";
+
+@mixin container {
+  height: 90vh;
+  padding: 0 100px;
+
+  @media (max-width: $l-device) {
+    padding: 0 50px;
+  }
+  @media (max-width: $m-device) {
+    padding: 0 20px;
+  }
+}
