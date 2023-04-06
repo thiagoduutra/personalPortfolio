@@ -46,7 +46,7 @@
       .footer-links {
         padding: 10px;
 
-        @media (max-width: $s-device) {
+        @media (max-width: $m-device) {
           padding: 0;
         }
         .link-svg {
