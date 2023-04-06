@@ -1,0 +1,17 @@
+@import "../../styles/utils/variables.scss";
+@import "../../styles/mixin/mixin.scss";
+
+.container-portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  gap: 20px;
+
+  .titlePortfolio {
+    color: $color-green-1;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+}
