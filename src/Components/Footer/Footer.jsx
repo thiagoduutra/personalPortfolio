@@ -27,19 +27,19 @@ const Footer = () => {
             </NavLink>
           </li>
           <li className="footer-links">
-            <NavLink className="link-svg" to="/curriculo">
-              <FaList className="svg-img" />
-            </NavLink>
-            <NavLink className="link" to="/curriculo">
-              Curriculo
-            </NavLink>
-          </li>
-          <li className="footer-links">
             <NavLink className="link-svg" to="/portfolio">
               <FaImage className="svg-img" />
             </NavLink>
             <NavLink className="link" to="/portfolio">
               Portfólio
+            </NavLink>
+          </li>
+          <li className="footer-links">
+            <NavLink className="link-svg" to="/curriculo">
+              <FaList className="svg-img" />
+            </NavLink>
+            <NavLink className="link" to="/curriculo">
+              Curriculo
             </NavLink>
           </li>
 
