@@ -11,10 +11,10 @@ const Footer = () => {
       <nav className="container-navFooter">
         <ul className="container-ulFooter">
           <li className="footer-links">
-            <NavLink className="link-svg" to="/">
+            <NavLink className="link-svg" to="/personalPortfolio">
               <FaHome className="svg-img" />
             </NavLink>
-            <NavLink className="link" to="/">
+            <NavLink className="link" to="/personalPortfolio">
               Home
             </NavLink>
           </li>
