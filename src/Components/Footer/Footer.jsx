@@ -39,7 +39,7 @@ const Footer = () => {
               <FaList className="svg-img" />
             </NavLink>
             <NavLink className="link" to="/curriculo">
-              Curriculo
+              Currículo
             </NavLink>
           </li>
 

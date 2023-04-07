@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
+
 import Calc from "../../img/calculadora.png";
 import Nlw from "../../img/nlw-sports.png";
 import Bikcraft from "../../img/bikcraft.png";
