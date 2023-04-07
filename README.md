@@ -11,6 +11,7 @@ Primeiro portfolio
 -   SASS
 -   Git, Github, GitFlow
 -   ReactJS
+-   Slick
 
 ## Instalação e desenvolvimento
 
