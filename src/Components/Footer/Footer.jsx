@@ -12,7 +12,7 @@ const Footer = () => {
         <ul className="container-ulFooter">
           <li className="footer-links">
             <NavLink className="link-svg" to="/personalPortfolio">
-              <FaHome className="svg-img" />
+              <FaHome className="svg-img" title="Home" />
             </NavLink>
             <NavLink className="link" to="/personalPortfolio">
               Home
@@ -20,7 +20,7 @@ const Footer = () => {
           </li>
           <li className="footer-links">
             <NavLink className="link-svg" to="/aboutme">
-              <FaUser className="svg-img" />
+              <FaUser className="svg-img" title="sobre mim" />
             </NavLink>
             <NavLink className="link" to="/aboutme">
               Sobre mim
@@ -30,7 +30,7 @@ const Footer = () => {
             <NavLink className="link-svg" to="/portfolio">
               <FaImage className="svg-img" />
             </NavLink>
-            <NavLink className="link" to="/portfolio">
+            <NavLink className="link" to="/portfolio" title="portfolio">
               Portfólio
             </NavLink>
           </li>
@@ -38,7 +38,7 @@ const Footer = () => {
             <NavLink className="link-svg" to="/curriculo">
               <FaList className="svg-img" />
             </NavLink>
-            <NavLink className="link" to="/curriculo">
+            <NavLink className="link" to="/curriculo" title="curriculo">
               Currículo
             </NavLink>
           </li>
@@ -47,7 +47,7 @@ const Footer = () => {
             <NavLink className="link-svg" to="/contact">
               <FaPaperPlane className="svg-img" />
             </NavLink>
-            <NavLink className="link" to="/contact">
+            <NavLink className="link" to="/contact" title="contato">
               Contato
             </NavLink>
           </li>
