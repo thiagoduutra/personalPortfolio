@@ -5,7 +5,20 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   background-color: $color-black-2;
-  color: $color-white-1;
   list-style: none;
   text-decoration: none;
+}
+
+p,
+span,
+a,
+h1,
+h2,
+h3,
+li {
+  color: $color-white-1;
+}
+
+svg {
+  color: $color-green-1;
 }
