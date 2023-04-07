@@ -82,7 +82,7 @@ export const Carousel = () => {
       <div className="container-infoCarts">
         <div className="container-info">
           <figure className="container-img">
-            <img className="img-portfolio" src={Nlw} alt="" />
+            <img className="img-portfolio" src={Nlw} alt="projeto NLW" />
           </figure>
           <h3>Projeto NLW e-Sports</h3>
           <p>Feita na semana next level da Rocketseat</p>
@@ -111,7 +111,11 @@ export const Carousel = () => {
       <div className="container-infoCarts">
         <div className="container-info">
           <figure className="container-img">
-            <img className="img-portfolio" src={Bikcraft} alt="" />
+            <img
+              className="img-portfolio"
+              src={Bikcraft}
+              alt="projeto bikCraft"
+            />
           </figure>
           <h3>Projeto BikCraft</h3>
           <p>Projeto feito no curso Origamid</p>
@@ -141,7 +145,11 @@ export const Carousel = () => {
       <div className="container-infoCarts">
         <div className="container-info">
           <figure className="container-img">
-            <img className="img-portfolio" src={formLogin} alt="" />
+            <img
+              className="img-portfolio"
+              src={formLogin}
+              alt="projeto login"
+            />
           </figure>
           <h3>Projeto Formulário Login</h3>
           <p>Projeto iniciante</p>
@@ -171,7 +179,11 @@ export const Carousel = () => {
       <div className="container-infoCarts">
         <div className="container-info">
           <figure className="container-img">
-            <img className="img-portfolio" src={slidePhoto} alt="" />
+            <img
+              className="img-portfolio"
+              src={slidePhoto}
+              alt="projeto slide photo"
+            />
           </figure>
           <h3>Projeto slide</h3>
           <p>Projeto feito para testar Js</p>
@@ -201,7 +213,11 @@ export const Carousel = () => {
       <div className="container-infoCarts">
         <div className="container-info">
           <figure className="container-img">
-            <img className="img-portfolio" src={animais} alt="" />
+            <img
+              className="img-portfolio"
+              src={animais}
+              alt="projeto animais fantasticos"
+            />
           </figure>
           <h3>Projeto Animais Fantásticos</h3>
           <p>Projeto feito no curso Origamid</p>
@@ -232,7 +248,7 @@ export const Carousel = () => {
       <div className="container-infoCarts">
         <div className="container-info">
           <figure className="container-img">
-            <img className="img-portfolio" src={desafioM3P} alt="" />
+            <img className="img-portfolio" src={desafioM3P} alt="Projeto M3" />
           </figure>
           <h3>Landing Page</h3>
           <p>Desafio 1 feito no programa de capacitação da M3 Academy </p>
@@ -261,7 +277,7 @@ export const Carousel = () => {
       <div className="container-infoCarts">
         <div className="container-info">
           <figure className="container-img">
-            <img className="img-portfolio" src={desafio3M3} alt="" />
+            <img className="img-portfolio" src={desafio3M3} alt="Projeto M3" />
           </figure>
           <h3>Challenge Tourist</h3>
           <p>Desafio 3 feito no programa de capacitação da M3 Academy </p>
@@ -287,7 +303,7 @@ export const Carousel = () => {
       <div className="container-infoCarts">
         <div className="container-info">
           <figure className="container-img">
-            <img className="img-portfolio" src={desafio4M3} alt="" />
+            <img className="img-portfolio" src={desafio4M3} alt="Projeto M3" />
           </figure>
           <h3>Checkout</h3>
           <p>Desafio 4 feito no programa de capacitação da M3 Academy </p>
@@ -312,7 +328,7 @@ export const Carousel = () => {
       <div className="container-infoCarts">
         <div className="container-info">
           <figure className="container-img">
-            <img className="img-portfolio" src={desafio5M3} alt="" />
+            <img className="img-portfolio" src={desafio5M3} alt="Projeto M3" />
           </figure>
           <h3>React JS</h3>
           <p>Desafio 5 feito no programa de capacitação da M3 Academy </p>
@@ -337,7 +353,7 @@ export const Carousel = () => {
       <div className="container-infoCarts">
         <div className="container-info">
           <figure className="container-img">
-            <img className="img-portfolio" src={desafio6M3} alt="" />
+            <img className="img-portfolio" src={desafio6M3} alt="Projeto M3" />
           </figure>
           <h3>React JS</h3>
           <p>Desafio 6 feito no programa de capacitação da M3 Academy </p>
@@ -362,7 +378,11 @@ export const Carousel = () => {
       <div className="container-infoCarts">
         <div className="container-info">
           <figure className="container-img">
-            <img className="img-portfolio" src={quizSeries} alt="" />
+            <img
+              className="img-portfolio"
+              src={quizSeries}
+              alt="Projeto series"
+            />
           </figure>
           <h3>Quiz de series</h3>
           <p>Projeto para estudo ReactJS </p>
@@ -393,7 +413,7 @@ export const Carousel = () => {
       <div className="container-infoCarts">
         <div className="container-info">
           <figure className="container-img">
-            <img className="img-portfolio" src={gitHubApi} alt="" />
+            <img className="img-portfolio" src={gitHubApi} alt="projeto API" />
           </figure>
           <h3>Github repositories</h3>
           <p>Projeto para consumo de API </p>
@@ -424,7 +444,11 @@ export const Carousel = () => {
       <div className="container-infoCarts">
         <div className="container-info">
           <figure className="container-img">
-            <img className="img-portfolio" src={eccomerce} alt="" />
+            <img
+              className="img-portfolio"
+              src={eccomerce}
+              alt="Projeto ecommerce"
+            />
           </figure>
           <h3>Eccomerce</h3>
           <p>Projeto para testar conhecimentos React JS </p>
