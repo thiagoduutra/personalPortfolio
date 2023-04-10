@@ -426,14 +426,7 @@ export const Carousel = () => {
           <div className="container-btn">
             <Link
               className="btn"
-              to="https://thiagoduutra.github.io/quiz-series/"
-              target="_blank"
-            >
-              Deploy
-            </Link>
-            <Link
-              className="btn"
-              to="https://github.com/thiagoduutra/quiz-series"
+              to="https://github.com/thiagoduutra/GitHub-users"
               target="_blank"
             >
               Repositório
@@ -450,7 +443,7 @@ export const Carousel = () => {
               alt="Projeto ecommerce"
             />
           </figure>
-          <h3>Eccomerce</h3>
+          <h3>Ecommerce</h3>
           <p>Projeto para testar conhecimentos React JS </p>
           <ul className="container-tools">
             <li className="tools-link">HTML</li>
