@@ -1,6 +1,5 @@
 # personalPortfolio
 
-##Descrição
 
 Primeiro portfolio
 
